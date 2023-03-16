@@ -2,7 +2,7 @@
     padding: 25px 0;
 }
 
-.dct-visit h2 {
+.dct-visit a {
     color: var(--color-secundary);
     font-family: poppins;
     font-size: 20px;
@@ -10,9 +10,9 @@
 
 }    
 
-@media (min-widht: 320px) {
+@media (min-width: 992px) {
 
-    .dct-visit h2 {
+    .dct-visit a {
         font-size: 32px;
     }    
 
