@@ -3,35 +3,32 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 0;
     height: 120px;
     padding: 34px 0;
 }
 
-
-
-.cdt-footer a {
+.cdt-footer a, p {
     color: var(--color-primary);
     font-family: 'poppins';
     font-weight: 400;
     font-size: 16px;
-    margin-bottom: 10px;
+}
+
+.cdt-footer a {
+    padding-bottom: 10px;
 }
 
 .cdt-footer p {
-    color: var(--color-primary);
-    font-weight: 400;
     font-style: italic;
-    font-size: 16px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .cdt-footer {
+        display: flex;
         justify-content: space-between;
         flex-direction: row;
         padding: 0 120px;
-        
-        
     }
-
 
 }
